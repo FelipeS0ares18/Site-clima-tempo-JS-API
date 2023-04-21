@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(180deg, #001449 0%, #00b4fc 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    background-color: #005bc5;
+    box-shadow: rgba(0, 0, 0, 0.24); 
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+}
+
+.formulario h3{
+    margin-bottom: 1rem;
+}
+
+.formulario-input-container{
+    display: flex;
+
+}
+
+.formulario input {
+    padding: .8rem;
+    border: none;
+    flex: 1;
+    border-radius: 3px;
+    color: black;
+}
+
+.formulario button{
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: aqua;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+#clima-data{
+    border-top: 1px solid white;
+    margin-top: 1.7rem;
+    padding-top: 1.7rem;
+    text-align: center;
+
+}
+
+#clima-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#clima-data h2 i{
+    font-size: 1rem;
+}
+
+#clima-data span{
+    margin: 0.5rem;
+}
+
+#pais{
+    height: 35px;
+}
+
+#descricao-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+#detalhes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#detalher-container #humidity{
+    border-right: 1px solid #fff;
+    margin: .6rem;
+    padding: .6rem;
+}

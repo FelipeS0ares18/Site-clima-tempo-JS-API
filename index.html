@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima hoje</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <script src="JavaScript/script.js" defer></script>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="container">
+        <div class="formulario">
+            <h3>Veja como está o clima hoje:</h3>
+            <div class="formulario-input-container">
+                <input type="text" placeholder="Escolha a sua cidade" id="cidade-input">
+                <button id="busca">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </div>
+        <div id="clima-data">
+            <h2><i class="fa-solid fa-location-dot"></i>
+            <span id="cidade">Escolha a cidade que desejar</span>
+
+            </h2>
+            <p id="temperatura"> <span>31</span>&deg;C</p>
+            <div id="descricao-container">
+                <p id="descricao">Tempo aberto </p>
+                <img src="http://openweathermap.org/img/wn/02d.png" alt="Condições climaticas" id="clima-icone" />
+            </div>
+            <div id="detalhes-container">
+                <p id="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <span>56%</span>
+                    </p>
+                    <p id="vento">
+                    <i class="fa-solid fa-wind"></i>
+                    <span>5km/h</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
