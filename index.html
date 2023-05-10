@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima hoje</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
     <script src="JavaScript/script.js" defer></script>
     <link rel="stylesheet" 
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
@@ -15,6 +15,20 @@
 
 </head>
 <body>
+   <div class="modal">
+   <button>Aviso <div class="fa-solid fa-info"></div></button>
+
+   <dialog id="dialog">
+
+    <h3>AVISO!</h3>
+    <p> Lembrete: As atualizações são recebidas via internet através de uma API automatizada. Portanto, as atulizações fornecidas aqui nem sempre será 100% precisas. 
+
+        Clique a tecla esc para fechar este aviso.
+    </p>
+    
+   </dialog>
+   </div>
+
     <div class="container">
         <div class="formulario">
             <h3>Veja como está o clima hoje:</h3>
@@ -44,8 +58,15 @@
                     <i class="fa-solid fa-wind"></i>
                     <span>5km/h</span>
                 </p>
+                <div class="popup">
+                   
+                </div>
             </div>
         </div>
     </div>
+ 
+
+
 </body>
 </html>
+ 
