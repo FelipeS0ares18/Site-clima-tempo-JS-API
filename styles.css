@@ -7,7 +7,7 @@
 }
 
 body{
-    background: linear-gradient(180deg, #001449 0%, #00b4fc 100%);
+    background-color: #001449;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,8 +18,7 @@ body{
     width: 50%;
     padding: 10px;
     font-size: 16px;
-    background-color: #001449;
-    border-radius: 50px;
+    background-color: #fff;
     align-items: center;
     justify-content: center;
     border: none;
@@ -27,27 +26,26 @@ body{
 }
 
 #dialog p{
-    color: white;
+    color: black;
     font-weight: bold;
     border: none;
 }
 
 .modal button{
-  left: 45%;
-  position: absolute;
-  top: 0;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  height: 50px;
-  width: 200px;
-  border-radius: 30px;
-font-weight: bold;
-font-size: 20px;
-cursor: pointer;
-background-color: #00b4fc;
-border: none;
- 
+ left: 45%;
+ position: absolute;
+ top: 0;
+ align-items: center;
+ justify-content: center;
+ margin-top: 20px;
+ height: 50px;
+ width: 200px;
+ border-radius: 10px;
+ font-weight: bold;
+ font-size: 20px;
+ cursor: pointer;
+ background-color: #00b4fc;
+ border: none;
 }
 
 
